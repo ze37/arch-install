@@ -65,7 +65,7 @@ pacman -S networkmanager network-manager-applet --noconfirm
 # iniciar i3
 echo -e "${_g}===> Configurando pra iniciar o i3${_o}"; sleep 1
 echo 'exec i3' > ~/.xinitrc
-
+echo
 # fix keyboard X11 br abnt2
 echo -e "${_g}===>locale X11 abnt2${_o}"
 localectl set-x11-keymap br abnt2
